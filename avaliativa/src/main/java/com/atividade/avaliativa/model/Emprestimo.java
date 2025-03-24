@@ -3,7 +3,6 @@ package com.atividade.avaliativa.model;
 import lombok.*;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 @Getter
 @Setter
@@ -12,7 +11,7 @@ import java.util.Date;
 public class Emprestimo {
     private Long idEmprestimo;
     private LocalDate dataInicio;
-    private Date dataFim;
+    private LocalDate dataFim;
     private int livrosEmprestados;
     private String nomeCliente;
 }
